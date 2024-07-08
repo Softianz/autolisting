@@ -1,0 +1,13 @@
+/*
+ Theme Name:   Listdo Child
+ Theme URI:    http://wordpress.com
+ Description:  Listdo Child Theme
+ Author:       ApusTheme
+ Author URI:   http://apusthemes.com
+ Template:     listdo
+ Version:      1.0.0
+ Text Domain:  listdo-child
+*/
+.box-list-2 .fieldset-custom-radio-27, .box-list-2 .fieldset-job_price_to{
+    display: none;
+}

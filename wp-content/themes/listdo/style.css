@@ -1,0 +1,247 @@
+/*
+Theme Name: Listdo
+Theme URI: https://themeforest.net/item/listdo-directory-listing-wordpress-theme/25741327
+Author: ApusTheme
+Author URI: https://themeforest.net/user/apustheme
+Description: Listdo - Listing & Directory WordPress Theme
+Version: 1.0.28
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: custom-background, custom-colors, custom-header, custom-menu, editor-style, featured-images, microformats, rtl-language-support, sticky-post, threaded-comments, translation-ready
+Text Domain: listdo
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+.wp-block-gallery{
+    margin-bottom: 20px;
+}
+.wp-block-button {
+    margin:15px 0;
+}
+.wp-block-button.aligncenter{
+    margin:57px auto;
+}
+#apus_forgot_password_form {
+    display: none;
+}
+.wp-block-cover p:not(.has-text-color){
+    color: #fff;
+}
+img{
+    max-width: 100%;
+    height:auto;
+ }
+.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.aligncenter,
+div.aligncenter {
+    display: block;
+    margin: 5px auto 5px auto;
+}
+
+.alignright {
+    float:right;
+    margin: 5px 0 20px 20px;
+}
+
+.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+
+a img.alignright {
+    float: right;
+    margin: 5px 0 20px 20px;
+}
+
+a img.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+a img.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+
+a img.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.wp-caption {
+    background: #fff;
+    max-width: 96%; /* Image does not overflow the content area */
+    padding: 5px 3px 10px;
+    text-align: center;
+}
+
+.wp-caption.alignnone {
+    margin: 5px 20px 10px 0;
+}
+
+.wp-caption.alignleft {
+    margin: 5px 20px 10px 0;
+}
+
+.wp-caption.alignright {
+    margin: 5px 0 10px 20px;
+}
+
+.wp-caption img {
+    border: 0 none;
+    height: auto;
+    margin: 0;
+    max-width: 98.5%;
+    padding: 0;
+    width: auto;
+}
+
+.wp-caption p.wp-caption-text {
+    font-size: 11px;
+    line-height: 17px;
+    margin: 0;
+    padding: 0 4px 5px;
+}
+
+/* Text meant only for screen readers. */
+.screen-reader-text {
+    clip: rect(1px, 1px, 1px, 1px);
+    position: absolute !important;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+}
+
+.screen-reader-text:focus {
+    background-color: #f1f1f1;
+    border-radius: 3px;
+    box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+    clip: auto !important;
+    color: #21759b;
+    display: block;
+    font-size: 14px;
+    font-size: 0.875rem;
+    font-weight: bold;
+    height: auto;
+    left: 5px;
+    line-height: normal;
+    padding: 15px 23px 14px;
+    text-decoration: none;
+    top: 5px;
+    width: auto;
+    z-index: 100000; /* Above WP toolbar. */
+}
+.gallery-caption {
+    box-sizing: border-box;
+}
+.bypostauthor{
+    box-sizing: border-box;
+}
+.wp-block-archives.aligncenter, .wp-block-categories.aligncenter {
+    text-align: center;
+}
+.wp-block-latest-posts li{
+    margin-bottom: 6px;
+}
+.wp-block-pullquote {
+    border:none;
+    padding: 3em 0;
+}
+.entry-description .wp-block-media-text {
+    margin-bottom: 30px;
+}
+.wp-block-cover{
+    margin-bottom: 28px;
+}
+.wp-block-cover-image{
+  margin-top: 28px;
+  margin-bottom: 28px;
+}
+.wp-block-columns{
+    margin: 25px 0;
+}
+.wp-block-columns:first-child{
+    margin-top: 0;
+}
+/* css */
+.screenshot-user img {
+    max-width:100%;
+}
+.listdo-location-field-map {
+    height: 385px;
+}
+.load_more_jobs {
+    display: none;
+}
+#apus-preview-listing-map {
+    width: 510px;
+    height: 500px;
+}
+.pin-st0{fill:#FFFFFF;}
+.pin-st1{fill:#00ABC9;}
+
+#apus-listing-map .leaflet-top, #apus-listing-map .leaflet-bottom {
+	z-index: 1000;
+}
+.bg-copyright-dark:before {
+    display: block;
+}
+.fields-filter {
+    overflow: hidden;
+}
+
+.shopping_cart_content .cart_list {
+  max-height: 350px;
+  overflow: hidden;
+}
+.wrapper-comment{
+    clear: both;
+}
+.ga-recaptcha {
+    padding-bottom: 30px;
+}
+.wp-caption-text{
+    margin-top: 12px;
+}
+p {
+    margin: 0 0 25px;
+}
+
+.phone-wrapper.phone-hide a.phone{
+    display: none;
+}
+.phone-wrapper.phone-hide .phone-show{
+    display: inline-block;
+    cursor: pointer;
+}
+
+.phone-wrapper.phone-hide .phone-show span{
+    display: inline-block;
+    font-size: 11px;
+    padding: 5px 10px;
+    line-height: 1;
+    border-radius: 4px;
+    color: #fff;
+    background: #29af6a;
+}
+
+.phone-wrapper.phone-hide.show a.phone{
+    display: inline-block;
+}
+.phone-wrapper.phone-hide.show .phone-show{
+    display: none;
+}
+div.job_listing .listing-image .flags-bottom-wrapper {
+    z-index: 2;
+}
+span.listing-phone.show, .header-top-job .header-metas .listing-phone.show {
+    display: inline-block !important;
+}
+/* fix woocommerce */
+.woocommerce table.shop_attributes td{
+    padding: 8px;
+}

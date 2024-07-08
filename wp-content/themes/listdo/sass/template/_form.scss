@@ -1,0 +1,378 @@
+// btn
+input,button,.btn{
+	outline:none !important;
+}
+.btn-outline-light{
+  @include button-variant-outline( #FFFFFF, transparent,  #FFFFFF, $brand-primary, #FFFFFF, $brand-primary);
+} 
+.btn-outline{
+	@include button-outline(default, #fff, $theme-color );
+	@include button-outline(primary, $brand-primary, #fff );
+	@include button-outline(success, $brand-success, #FFFFFF );
+	@include button-outline(info, $brand-info, #FFFFFF );
+	@include button-outline(danger, $brand-danger, #FFFFFF );
+	@include button-outline(warning, $brand-warning, #FFFFFF );
+	@include button-outline(dark, #7b7b7b, #FFFFFF );
+	@include button-outline(second, $theme-color-second, #FFFFFF );
+	@include button-outline(stblue, #021f4a, #FFFFFF );
+}
+.btn-inverse{
+	@include button-inverse(primary, $brand-primary, #FFFFFF );
+	@include button-inverse(success, $brand-success, #FFFFFF );
+	@include button-inverse(info, $brand-info, #FFFFFF );
+	@include button-inverse(danger, $brand-danger, #FFFFFF );
+	@include button-inverse(warning, $brand-warning, #FFFFFF );
+	@include button-inverse(theme, $theme-color, #FFFFFF );
+	@include button-inverse(second, $theme-color-second, #FFFFFF );
+	@include button-inverse(stblue, #021f4a, #FFFFFF );
+}
+.btn-readmore{
+	font-size: 15px;
+	color:$link-color;
+	font-weight: 600;
+	text-transform: capitalize;
+	text-decoration: underline;
+	&:hover,&:active{
+		color: $theme-color;
+	}
+}
+.btn-lighten{
+	border-color:#fff;
+	color:#fff;
+	background: transparent;
+	&:hover{
+		color: #fff;
+		background: transparent;
+		border-color:#fff;
+	}
+}
+.read-more {
+	font-size: 17px;
+	i{
+		@include rtl-margin-left(5px);
+		vertical-align: middle;
+		@media(min-width: 1200px){
+			@include rtl-margin-left(10px);
+		}
+	}
+	padding:0 0 3px;
+	position:relative;
+	&:before{
+		content:'';
+		position:absolute;
+		@include size(0,2px);
+		background:$theme-color;
+		right:0;
+		@include transition(width 0.3s ease-in-out 0s);
+		bottom:0;
+	}
+	&:hover{
+		&:before{
+			left:0;
+			width:100%;
+		}
+	}
+}
+.btn-white{
+	background: #fff;
+	color: $text-second;
+	border-color: #fff;
+	&:hover{
+		color:#fff;
+		background:$theme-color;
+		border-color: $theme-color;
+	}
+}
+.btn-darkred{
+	background: rgba(0,0,0,0.2);
+	color: #fff !important;
+	border-color:rgba(0,0,0,0.2);
+	&:focus,
+	&:hover{
+		background:rgba(0,0,0,0.3);
+		border-color: rgba(0,0,0,0.3);
+	}
+}
+.btn-dark{
+	background: #7b7b7b;
+	color: #fff;
+	border-color:#7b7b7b;
+	&:focus,
+	&:hover{
+		background:#3e3e3e;
+		border-color: #3e3e3e;
+		color: #fff;
+	}
+}
+.btn-stblue{
+	background: #021f4a;
+	color: #fff;
+	border-color:#021f4a;
+	&:focus,
+	&:hover{
+		background: darken(#021f4a,3%);
+		border-color: darken(#021f4a,3%);
+		color: #fff;
+	}
+}
+.show-more{
+	color:$theme-color;
+	font-size:17px;
+	font-weight:300;
+}
+.btn-white.btn-outline{
+	border-color: #fff;
+	color: #fff;
+	background: transparent;
+	&:hover,&:active{
+		border-color: $black;
+		background: $black ;
+		color: #fff;
+	}
+}
+.widget-view-user-profile .inner-right .active{
+	> .btn-white.btn-outline{
+		border-color: $black;
+		background: $black ;
+		color: #fff;
+	}
+}
+.btn-pink{
+	@include button-variant(#fff, #8c689d, #8c689d);
+}
+.btn-red{
+	@include button-variant(#fff, #ff8480, #ff8480);
+}
+.btn-3d{	
+	@include button-3d(lg,0, -5px, rgba(0, 0, 0, 0.15));
+	@include button-3d(empty,0, -5px, rgba(0, 0, 0, 0.15));
+	@include button-3d(sm,0, -4px, rgba(0, 0, 0, 0.15));
+	@include button-3d(xs,0, -2px, rgba(0, 0, 0, 0.15));
+} 
+.btn-shadow{
+	@include button-3d(empty,0, -15px, rgba(0, 0, 0, 0.3),15px,-10px);
+}
+.btn-theme {
+  @include button-variant(#fff, $theme-color, $theme-color);
+  &:hover{
+  	color: #fff;
+  }
+}
+.btn-second{
+  @include button-variant(#fff, $theme-color-second, $theme-color-second);
+  &:hover{
+  	color: #fff;
+  }
+}
+.btn-theme.btn-outline{
+	color: $theme-color;
+	border-color: $theme-color;
+	background: transparent;
+	&:hover,&:active{
+		color: #fff;
+		background: $theme-color;
+		border-color: $theme-color;
+	}
+}
+.btn-theme-second.btn-outline{
+	color: $theme-color-second;
+	border-color: $theme-color-second;
+	background: transparent;
+	&:hover,&:active{
+		color: #1b1b1b;
+		background: $theme-color-second;
+		border-color: $theme-color-second;
+	}
+}
+.btn-theme.btn-outline-dark{
+	color: #cccccc;
+	border-color: #a5a5a5;
+	background: transparent;
+	&:hover,&:active{
+		color: #fff;
+		background: $theme-color;
+		border-color: $theme-color;
+	}
+}
+.btn-view-listing,
+.btn-view-map{
+	@include border-radius(0 !important);
+}
+.more-link{
+	color: $theme-color;
+    display: inline-block;
+    font-weight: 700;
+    margin: 10px 0;
+    text-transform: capitalize;
+    &:hover{
+    	text-decoration: none;
+    }
+}
+/* Search
+------------------------------------------------*/
+.search-popup{
+	.dropdown-menu{
+		padding: 10px;
+	}
+}
+.btn-action{
+	@include border-radius(4px);
+    cursor: pointer;
+    display: inline-block;
+    font-size: 11px;
+    font-weight: 900;
+    line-height: 30px;
+    margin-bottom: 0;
+    padding: 0px 10px;
+    text-align: center;
+    @include transition(all 0.4s ease 0s);
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+.searchform{
+	.input-search{
+		padding:15px;
+		@include rtl-border-right(0);
+		line-height: 1.5;
+	}
+	.btn-search{
+		vertical-align: top;
+		color: #adafac;
+		padding:12px $padding-xs-horizontal;
+	}
+	.input-group-btn{
+		line-height: 100%;
+	}
+}
+
+// Search categories
+.search-category{
+	.btn{
+		@include rtl-margin-left(10px !important);
+		@include border-radius($border-radius-small !important );
+	}
+	.wpo-search-inner{
+		label.form-control{
+			border:none;
+			border-bottom-right-radius: $border-radius-small;
+	        border-top-right-radius: $border-radius-small;
+		}
+	}
+	select {
+		border:none;
+		text-transform: capitalize;
+		font-weight: 500;
+	}
+}
+
+/* comment form
+------------------------------------------------*/
+.chosen-container{
+	width: 100% !important;
+}
+
+.input-group-form{
+	@include border-radius(3px);
+	background: $input-group-form-bg;
+	margin: $input-group-form-margin;
+	.form-control-reversed{
+		border: 0px;
+		background: $input-form-bg;
+		color: darken($white, 20%);
+	    @include font-size(font-size,14px);
+	    height: 34px;
+	    &:hover,
+	    &:focus{
+	        @include box-shadow(none);
+	    }
+	}
+	.input-group-addon{
+        border: 0;
+        background: $input-form-bg;
+        @include border-left-radius(4px);
+    }
+}
+.apus-report-comment-form,
+.change-password-form,
+.change-profile-form{
+	[type="submit"]{
+		position: relative;
+		&:before{
+			@include transition(all 0.2s ease-in-out 0s);
+	        content: '';
+	        position: absolute;
+	        z-index: 999;
+	        top:-5px;
+	        left: -5px;
+	        width: calc(100% + 10px );
+	        height: calc(100% + 10px );
+	        background:rgba(255,255,255,0.9) url('#{$image-theme-path}loading.gif') no-repeat center center / 25px auto;
+	        @include opacity(0);
+	     }
+	}
+	&.loading{
+		[type="submit"]{
+			&:before{
+				@include opacity(1);
+		     }
+		}
+	}
+}
+.apus-report-comment-form{
+	.title{
+		margin-bottom: 5px;
+		color: $brand-danger;
+	}
+	textarea {
+		border:1px solid $border-color;
+		padding:10px;
+		@include border-radius(4px);
+		@include transition(all 0.2s ease-in-out 0s);
+		&:focus{
+			border-color:$input-border-focus;
+		}
+	}
+}
+.btn-follow-following{
+	position:relative;
+	&:before{
+		@include transition(all 0.2s ease-in-out 0s);
+        content: '';
+        position: absolute;
+        z-index: 999;
+        top:-2px;
+        left: -2px;
+        @include size(calc(100% + 4px), calc(100% + 4px));
+        background:rgba(255,255,255,0.9) url('#{$image-theme-path}loading.gif') no-repeat center center / 20px auto;
+        @include opacity(0);
+    }
+	&.loading{
+		border-color:rgba(255,255,255,0.9) !important;
+		&:before{
+			@include opacity(1);
+		}
+	}
+}
+.show-social{
+	cursor: pointer;
+	color: #fff;
+	display: inline-block;
+	padding: 5px 30px;
+	background: none;
+	font-size: 16px;
+	border:2px solid rgba(255,255,255,.20);	
+	@include transition(all 0.3s ease-in-out 0s);
+	@include border-radius(45px);
+	i{
+		@include rtl-margin-right(5px);
+		@media(min-width: 1200px){
+			@include rtl-margin-right(12px);
+		}
+	}
+	&:hover,&:focus{
+		border-color: #fff;
+		background-color: #fff;
+		color: $link-color;
+	}
+}

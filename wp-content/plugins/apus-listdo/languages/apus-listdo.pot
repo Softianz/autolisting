@@ -1,0 +1,791 @@
+# Copyright (C) 2016 Apus Listdo
+# This file is distributed under the same license as the Apus Listdo package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Apus Listdo 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/apus-listdo\n"
+"POT-Creation-Date: 2019-06-10 03:52:58+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: inc/class-claim.php:31 inc/class-claim.php:196
+msgid "Claim Listing"
+msgstr ""
+
+#: inc/class-claim.php:58
+msgid "Claim for"
+msgstr ""
+
+#: inc/class-claim.php:104
+msgid "Claim has been submitted."
+msgstr ""
+
+#: inc/class-claim.php:109
+msgid "Can not claim this listing"
+msgstr ""
+
+#: inc/class-claim.php:151
+msgid "Claim Email Templates"
+msgstr ""
+
+#: inc/class-claim.php:156
+msgid "Email Subject For Claimer"
+msgstr ""
+
+#: inc/class-claim.php:157 inc/class-claim.php:163 inc/class-claim.php:170
+#: inc/class-claim.php:176 inc/class-claim.php:183 inc/class-claim.php:189
+msgid "Variables: "
+msgstr ""
+
+#: inc/class-claim.php:162
+msgid "Email Body For Claimer"
+msgstr ""
+
+#: inc/class-claim.php:169
+msgid "Email Subject For Admin"
+msgstr ""
+
+#: inc/class-claim.php:175
+msgid "Email Body For Admin"
+msgstr ""
+
+#: inc/class-claim.php:182
+msgid "Email Subject For Author"
+msgstr ""
+
+#: inc/class-claim.php:188
+msgid "Email Body For Author"
+msgstr ""
+
+#: inc/class-claim.php:201
+msgid "Enbale Claim"
+msgstr ""
+
+#: inc/class-claim.php:207
+msgid "Claim Title"
+msgstr ""
+
+#: inc/class-claim.php:212
+msgid "Banner"
+msgstr ""
+
+#: inc/class-claim.php:213
+msgid "Upload a .jpg or .png image."
+msgstr ""
+
+#: inc/class-claim.php:249
+msgid "Your Claim has been approved"
+msgstr ""
+
+#: inc/class-claim.php:250
+msgid "Congratulation! Your claim has been approved. Details are following"
+msgstr ""
+
+#: inc/class-claim.php:252
+msgid "Listing Title : "
+msgstr ""
+
+#: inc/class-claim.php:254
+msgid "URL : "
+msgstr ""
+
+#: inc/class-custom-fields-display.php:72
+msgid "Yes"
+msgstr ""
+
+#: inc/class-custom-fields-display.php:72
+msgid "No"
+msgstr ""
+
+#: inc/class-custom-fields-display.php:86
+#: inc/class-custom-fields-display.php:93
+msgid "Download file"
+msgstr ""
+
+#: inc/class-custom-fields-html.php:81 inc/class-custom-fields-html.php:137
+#: inc/class-custom-fields-html.php:200 inc/class-custom-fields-html.php:254
+#: inc/class-custom-fields-html.php:328 inc/class-custom-fields-html.php:391
+#: inc/class-custom-fields-html.php:444 inc/class-custom-fields-html.php:505
+#: inc/class-custom-fields-html.php:565 inc/class-custom-fields-html.php:625
+#: inc/class-custom-fields-html.php:684 inc/class-custom-fields-html.php:744
+#: inc/class-custom-fields-html.php:803
+msgid "Label"
+msgstr ""
+
+#: inc/class-custom-fields-html.php:82 inc/class-custom-fields-html.php:138
+#: inc/class-custom-fields-html.php:201 inc/class-custom-fields-html.php:255
+#: inc/class-custom-fields-html.php:329
+msgid "Key"
+msgstr ""
+
+#: inc/class-custom-fields-html.php:83 inc/class-custom-fields-html.php:139
+#: inc/class-custom-fields-html.php:202 inc/class-custom-fields-html.php:330
+#: inc/class-custom-fields-html.php:392 inc/class-custom-fields-html.php:445
+#: inc/class-custom-fields-html.php:506 inc/class-custom-fields-html.php:566
+#: inc/class-custom-fields-html.php:626 inc/class-custom-fields-html.php:685
+#: inc/class-custom-fields-html.php:745 inc/class-custom-fields-html.php:804
+msgid "Placeholder"
+msgstr ""
+
+#: inc/class-custom-fields-html.php:84 inc/class-custom-fields-html.php:140
+#: inc/class-custom-fields-html.php:203 inc/class-custom-fields-html.php:331
+#: inc/class-custom-fields-html.php:393 inc/class-custom-fields-html.php:446
+#: inc/class-custom-fields-html.php:507 inc/class-custom-fields-html.php:567
+#: inc/class-custom-fields-html.php:627 inc/class-custom-fields-html.php:686
+#: inc/class-custom-fields-html.php:746 inc/class-custom-fields-html.php:805
+msgid "Description"
+msgstr ""
+
+#: inc/class-custom-fields-html.php:85 inc/class-custom-fields-html.php:147
+#: inc/class-custom-fields-html.php:205 inc/class-custom-fields-html.php:337
+#: inc/class-custom-fields-html.php:394 inc/class-custom-fields-html.php:454
+#: inc/class-custom-fields-html.php:513 inc/class-custom-fields-html.php:575
+#: inc/class-custom-fields-html.php:634 inc/class-custom-fields-html.php:694
+#: inc/class-custom-fields-html.php:753 inc/class-custom-fields-html.php:807
+msgid "Required"
+msgstr ""
+
+#: inc/class-custom-fields-html.php:86 inc/class-custom-fields-html.php:148
+#: inc/class-custom-fields-html.php:206 inc/class-custom-fields-html.php:338
+#: inc/class-custom-fields-html.php:395 inc/class-custom-fields-html.php:455
+#: inc/class-custom-fields-html.php:514 inc/class-custom-fields-html.php:576
+#: inc/class-custom-fields-html.php:635 inc/class-custom-fields-html.php:695
+#: inc/class-custom-fields-html.php:754 inc/class-custom-fields-html.php:808
+msgid "Show in submit form"
+msgstr ""
+
+#: inc/class-custom-fields-html.php:87 inc/class-custom-fields-html.php:149
+#: inc/class-custom-fields-html.php:207 inc/class-custom-fields-html.php:339
+#: inc/class-custom-fields-html.php:396 inc/class-custom-fields-html.php:456
+#: inc/class-custom-fields-html.php:515 inc/class-custom-fields-html.php:577
+#: inc/class-custom-fields-html.php:636 inc/class-custom-fields-html.php:696
+#: inc/class-custom-fields-html.php:755 inc/class-custom-fields-html.php:809
+msgid "Show in admin edit page"
+msgstr ""
+
+#: inc/class-custom-fields-html.php:94 inc/class-custom-fields-html.php:156
+#: inc/class-custom-fields-html.php:214 inc/class-custom-fields-html.php:287
+#: inc/class-custom-fields-html.php:346 inc/class-custom-fields-html.php:403
+#: inc/class-custom-fields-html.php:463 inc/class-custom-fields-html.php:522
+#: inc/class-custom-fields-html.php:584 inc/class-custom-fields-html.php:643
+#: inc/class-custom-fields-html.php:703 inc/class-custom-fields-html.php:762
+#: inc/class-custom-fields-html.php:816
+msgid "Enable package visibility"
+msgstr ""
+
+#: inc/class-custom-fields-html.php:95 inc/class-custom-fields-html.php:157
+#: inc/class-custom-fields-html.php:215 inc/class-custom-fields-html.php:288
+#: inc/class-custom-fields-html.php:347 inc/class-custom-fields-html.php:404
+#: inc/class-custom-fields-html.php:464 inc/class-custom-fields-html.php:523
+#: inc/class-custom-fields-html.php:585 inc/class-custom-fields-html.php:644
+#: inc/class-custom-fields-html.php:704 inc/class-custom-fields-html.php:763
+#: inc/class-custom-fields-html.php:817
+msgid "Packages"
+msgstr ""
+
+#: inc/class-custom-fields-html.php:95 inc/class-custom-fields-html.php:157
+#: inc/class-custom-fields-html.php:215 inc/class-custom-fields-html.php:288
+#: inc/class-custom-fields-html.php:347 inc/class-custom-fields-html.php:404
+#: inc/class-custom-fields-html.php:464 inc/class-custom-fields-html.php:523
+#: inc/class-custom-fields-html.php:585 inc/class-custom-fields-html.php:644
+#: inc/class-custom-fields-html.php:704 inc/class-custom-fields-html.php:763
+#: inc/class-custom-fields-html.php:817
+msgid "Choose Packages to show this field insubmit form."
+msgstr ""
+
+#: inc/class-custom-fields-html.php:100 inc/class-custom-fields-html.php:163
+#: inc/class-custom-fields-html.php:221 inc/class-custom-fields-html.php:353
+msgid "Position Display"
+msgstr ""
+
+#: inc/class-custom-fields-html.php:143 inc/class-custom-fields-html.php:749
+#: inc/mixes-functions.php:77 inc/post-types/class-post-type-job_claim.php:125
+msgid "Date"
+msgstr ""
+
+#: inc/class-custom-fields-html.php:144 inc/class-custom-fields-html.php:750
+msgid "Datetime"
+msgstr ""
+
+#: inc/class-custom-fields-html.php:146 inc/class-custom-fields-html.php:752
+msgid "Format"
+msgstr ""
+
+#: inc/class-custom-fields-html.php:204 inc/class-custom-fields-html.php:806
+msgid "Options"
+msgstr ""
+
+#: inc/class-custom-fields-html.php:204 inc/class-custom-fields-html.php:806
+msgid "Add each option in a new line."
+msgstr ""
+
+#: inc/class-custom-fields-html.php:260 inc/class-taxonomies.php:211
+msgid "Icon"
+msgstr ""
+
+#: inc/class-custom-fields-html.php:275
+msgid "1 Column"
+msgstr ""
+
+#: inc/class-custom-fields-html.php:276
+msgid "2 Column"
+msgstr ""
+
+#: inc/class-custom-fields-html.php:277
+msgid "3 Column"
+msgstr ""
+
+#: inc/class-custom-fields-html.php:278
+msgid "4 Column"
+msgstr ""
+
+#: inc/class-custom-fields-html.php:280
+msgid "Columns Inner"
+msgstr ""
+
+#: inc/class-custom-fields-html.php:334 inc/class-custom-fields-html.php:511
+#: inc/class-custom-fields-html.php:573
+msgid "Allowed file types"
+msgstr ""
+
+#: inc/class-custom-fields-html.php:336
+msgid "Multiple files"
+msgstr ""
+
+#: inc/class-custom-fields-html.php:449
+msgid "Term Select"
+msgstr ""
+
+#: inc/class-custom-fields-html.php:450
+msgid "Term Multiselect"
+msgstr ""
+
+#: inc/class-custom-fields-html.php:451
+msgid "Term Checklist"
+msgstr ""
+
+#: inc/class-custom-fields-html.php:453 inc/class-custom-fields-html.php:633
+msgid "Template"
+msgstr ""
+
+#: inc/class-custom-fields-html.php:569
+msgid "File limit"
+msgstr ""
+
+#: inc/class-custom-fields-html.php:630 inc/mixes-functions.php:75
+msgid "Textarea"
+msgstr ""
+
+#: inc/class-custom-fields-html.php:631 inc/mixes-functions.php:76
+msgid "WP Editor"
+msgstr ""
+
+#: inc/class-custom-fields-html.php:689
+msgid "Only their own"
+msgstr ""
+
+#: inc/class-custom-fields-html.php:690 inc/class-taxonomies.php:238
+msgid "All"
+msgstr ""
+
+#: inc/class-custom-fields-html.php:692
+msgid "Products limitation"
+msgstr ""
+
+#: inc/class-custom-fields-html.php:851
+msgid "%s Field %s"
+msgstr ""
+
+#: inc/class-fields-manager.php:23
+msgid "Fields Manager"
+msgstr ""
+
+#: inc/class-fields-manager.php:74
+msgid "Fields manager"
+msgstr ""
+
+#: inc/class-fields-manager.php:79
+msgid "Choose Listing Type"
+msgstr ""
+
+#: inc/class-fields-manager.php:100
+msgid "Please update your listing type first"
+msgstr ""
+
+#: inc/class-fields-manager.php:107
+msgid "Your Listing Type"
+msgstr ""
+
+#: inc/class-fields-manager.php:125
+#: inc/taxonomies/class-taxonomy-job-manager-amenities.php:35
+#: inc/taxonomies/class-taxonomy-job-manager-regions.php:35
+#: inc/taxonomies/class-taxonomy-job-manager-tags.php:46
+#: templates/admin/fields-settings.php:98
+msgid "Update"
+msgstr ""
+
+#: inc/class-taxonomies.php:35 inc/class-taxonomies.php:72
+msgid "Select Brands"
+msgstr ""
+
+#: inc/class-taxonomies.php:41 inc/class-taxonomies.php:79
+msgid "Icon Type"
+msgstr ""
+
+#: inc/class-taxonomies.php:45 inc/class-taxonomies.php:85
+#: inc/class-taxonomies.php:143
+msgid "Icon Font"
+msgstr ""
+
+#: inc/class-taxonomies.php:49 inc/class-taxonomies.php:91
+#: inc/class-taxonomies.php:146
+msgid "Icon Image"
+msgstr ""
+
+#: inc/class-taxonomies.php:54 inc/class-taxonomies.php:100
+msgid "Color"
+msgstr ""
+
+#: inc/class-taxonomies.php:136
+msgid "Choose on what listing brands should this term be available. Set to empty for all."
+msgstr ""
+
+#: inc/class-taxonomies.php:166
+msgid "Image"
+msgstr ""
+
+#: inc/class-taxonomies.php:171
+msgid "Add Icon Image"
+msgstr ""
+
+#: inc/class-taxonomies.php:172
+msgid "Remove Icon Image"
+msgstr ""
+
+#: inc/class-taxonomies.php:216
+#: inc/taxonomies/class-taxonomy-job-manager-categories.php:24
+msgid "Category"
+msgstr ""
+
+#: inc/class-taxonomies.php:251
+msgid "icon"
+msgstr ""
+
+#: inc/mixes-functions.php:72
+msgid "Direct Input"
+msgstr ""
+
+#: inc/mixes-functions.php:74
+msgid "Text"
+msgstr ""
+
+#: inc/mixes-functions.php:78
+msgid "Number"
+msgstr ""
+
+#: inc/mixes-functions.php:79
+msgid "Url"
+msgstr ""
+
+#: inc/mixes-functions.php:80
+msgid "Email"
+msgstr ""
+
+#: inc/mixes-functions.php:84
+msgid "Choices"
+msgstr ""
+
+#: inc/mixes-functions.php:86
+msgid "Select"
+msgstr ""
+
+#: inc/mixes-functions.php:87
+msgid "Multiselect"
+msgstr ""
+
+#: inc/mixes-functions.php:88
+msgid "Checkbox"
+msgstr ""
+
+#: inc/mixes-functions.php:89
+msgid "Radio Buttons"
+msgstr ""
+
+#: inc/mixes-functions.php:93
+msgid "Form UI"
+msgstr ""
+
+#: inc/mixes-functions.php:95
+msgid "Heading"
+msgstr ""
+
+#: inc/mixes-functions.php:99
+msgid "Others"
+msgstr ""
+
+#: inc/mixes-functions.php:101
+msgid "File"
+msgstr ""
+
+#: inc/post-types/class-post-type-job_claim.php:28
+#: inc/post-types/class-post-type-job_claim.php:29
+msgid "Claim"
+msgstr ""
+
+#: inc/post-types/class-post-type-job_claim.php:30
+#: inc/post-types/class-post-type-job_claim.php:31
+msgid "Add New Claim"
+msgstr ""
+
+#: inc/post-types/class-post-type-job_claim.php:32
+msgid "Edit Claim"
+msgstr ""
+
+#: inc/post-types/class-post-type-job_claim.php:33
+msgid "New Claim"
+msgstr ""
+
+#: inc/post-types/class-post-type-job_claim.php:34
+#: inc/post-types/class-post-type-job_claim.php:40
+msgid "Claims"
+msgstr ""
+
+#: inc/post-types/class-post-type-job_claim.php:35
+msgid "View Claim"
+msgstr ""
+
+#: inc/post-types/class-post-type-job_claim.php:36
+msgid "Search Claim"
+msgstr ""
+
+#: inc/post-types/class-post-type-job_claim.php:37
+msgid "No Claims found"
+msgstr ""
+
+#: inc/post-types/class-post-type-job_claim.php:38
+msgid "No Claims found in Trash"
+msgstr ""
+
+#: inc/post-types/class-post-type-job_claim.php:62
+msgid "Claim Information"
+msgstr ""
+
+#: inc/post-types/class-post-type-job_claim.php:93
+msgid "Claim For"
+msgstr ""
+
+#: inc/post-types/class-post-type-job_claim.php:99
+#: inc/post-types/class-post-type-job_claim.php:124
+msgid "Status"
+msgstr ""
+
+#: inc/post-types/class-post-type-job_claim.php:103
+msgid "Pending"
+msgstr ""
+
+#: inc/post-types/class-post-type-job_claim.php:104
+#: inc/post-types/class-post-type-job_claim.php:138
+msgid "Approved"
+msgstr ""
+
+#: inc/post-types/class-post-type-job_claim.php:105
+#: inc/post-types/class-post-type-job_claim.php:139
+msgid "Decline"
+msgstr ""
+
+#: inc/post-types/class-post-type-job_claim.php:109
+msgid "Claim Detail"
+msgstr ""
+
+#: inc/post-types/class-post-type-job_claim.php:122
+msgid "Title"
+msgstr ""
+
+#: inc/post-types/class-post-type-job_claim.php:123
+msgid "Author"
+msgstr ""
+
+#: inc/post-types/class-post-type-job_claim.php:137
+msgid "pending"
+msgstr ""
+
+#: inc/taxonomies/class-taxonomy-job-manager-amenities.php:28
+#: inc/taxonomies/class-taxonomy-job-manager-amenities.php:38
+msgid "Amenities"
+msgstr ""
+
+#: inc/taxonomies/class-taxonomy-job-manager-amenities.php:29
+msgid "Amenity"
+msgstr ""
+
+#: inc/taxonomies/class-taxonomy-job-manager-amenities.php:30
+msgid "Search Amenities"
+msgstr ""
+
+#: inc/taxonomies/class-taxonomy-job-manager-amenities.php:31
+msgid "All Amenities"
+msgstr ""
+
+#: inc/taxonomies/class-taxonomy-job-manager-amenities.php:32
+msgid "Parent Amenity"
+msgstr ""
+
+#: inc/taxonomies/class-taxonomy-job-manager-amenities.php:33
+msgid "Parent Amenity:"
+msgstr ""
+
+#: inc/taxonomies/class-taxonomy-job-manager-amenities.php:34
+#: inc/taxonomies/class-taxonomy-job-manager-regions.php:34
+#: inc/taxonomies/class-taxonomy-job-manager-tags.php:45
+msgid "Edit"
+msgstr ""
+
+#: inc/taxonomies/class-taxonomy-job-manager-amenities.php:36
+#: inc/taxonomies/class-taxonomy-job-manager-regions.php:36
+#: inc/taxonomies/class-taxonomy-job-manager-tags.php:47
+msgid "Add New"
+msgstr ""
+
+#: inc/taxonomies/class-taxonomy-job-manager-amenities.php:37
+msgid "New Amenity"
+msgstr ""
+
+#: inc/taxonomies/class-taxonomy-job-manager-amenities.php:45
+msgid "amenity"
+msgstr ""
+
+#: inc/taxonomies/class-taxonomy-job-manager-categories.php:25
+msgid "Categories"
+msgstr ""
+
+#. translators: Placeholder %s is the plural label of the job listing category
+#. taxonomy type.
+#. translators: Placeholder %s is the plural label of the job listing job type
+#. taxonomy type.
+
+#: inc/taxonomies/class-taxonomy-job-manager-categories.php:34
+#: inc/taxonomies/class-taxonomy-job-manager-types.php:33
+msgid "Search %s"
+msgstr ""
+
+#. translators: Placeholder %s is the plural label of the job listing category
+#. taxonomy type.
+#. translators: Placeholder %s is the plural label of the job listing job type
+#. taxonomy type.
+
+#: inc/taxonomies/class-taxonomy-job-manager-categories.php:36
+#: inc/taxonomies/class-taxonomy-job-manager-types.php:35
+msgid "All %s"
+msgstr ""
+
+#. translators: Placeholder %s is the singular label of the job listing
+#. category taxonomy type.
+#. translators: Placeholder %s is the singular label of the job listing job
+#. type taxonomy type.
+
+#: inc/taxonomies/class-taxonomy-job-manager-categories.php:38
+#: inc/taxonomies/class-taxonomy-job-manager-types.php:37
+msgid "Parent %s"
+msgstr ""
+
+#. translators: Placeholder %s is the singular label of the job listing
+#. category taxonomy type.
+#. translators: Placeholder %s is the singular label of the job listing job
+#. type taxonomy type.
+
+#: inc/taxonomies/class-taxonomy-job-manager-categories.php:40
+#: inc/taxonomies/class-taxonomy-job-manager-types.php:39
+msgid "Parent %s:"
+msgstr ""
+
+#. translators: Placeholder %s is the singular label of the job listing
+#. category taxonomy type.
+#. translators: Placeholder %s is the singular label of the job listing job
+#. type taxonomy type.
+
+#: inc/taxonomies/class-taxonomy-job-manager-categories.php:42
+#: inc/taxonomies/class-taxonomy-job-manager-types.php:41
+msgid "Edit %s"
+msgstr ""
+
+#. translators: Placeholder %s is the singular label of the job listing
+#. category taxonomy type.
+#. translators: Placeholder %s is the singular label of the job listing job
+#. type taxonomy type.
+
+#: inc/taxonomies/class-taxonomy-job-manager-categories.php:44
+#: inc/taxonomies/class-taxonomy-job-manager-types.php:43
+msgid "Update %s"
+msgstr ""
+
+#. translators: Placeholder %s is the singular label of the job listing
+#. category taxonomy type.
+#. translators: Placeholder %s is the singular label of the job listing job
+#. type taxonomy type.
+
+#: inc/taxonomies/class-taxonomy-job-manager-categories.php:46
+#: inc/taxonomies/class-taxonomy-job-manager-types.php:45
+msgid "Add New %s"
+msgstr ""
+
+#. translators: Placeholder %s is the singular label of the job listing
+#. category taxonomy type.
+#. translators: Placeholder %s is the singular label of the job listing job
+#. type taxonomy type.
+
+#: inc/taxonomies/class-taxonomy-job-manager-categories.php:48
+#: inc/taxonomies/class-taxonomy-job-manager-types.php:47
+msgid "New %s Name"
+msgstr ""
+
+#: inc/taxonomies/class-taxonomy-job-manager-regions.php:28
+#: inc/taxonomies/class-taxonomy-job-manager-regions.php:38
+msgid "Regions"
+msgstr ""
+
+#: inc/taxonomies/class-taxonomy-job-manager-regions.php:29
+msgid "Region"
+msgstr ""
+
+#: inc/taxonomies/class-taxonomy-job-manager-regions.php:30
+msgid "Search Regions"
+msgstr ""
+
+#: inc/taxonomies/class-taxonomy-job-manager-regions.php:31
+msgid "All Regions"
+msgstr ""
+
+#: inc/taxonomies/class-taxonomy-job-manager-regions.php:32
+msgid "Parent Region"
+msgstr ""
+
+#: inc/taxonomies/class-taxonomy-job-manager-regions.php:33
+msgid "Parent Region:"
+msgstr ""
+
+#: inc/taxonomies/class-taxonomy-job-manager-regions.php:37
+msgid "New Region"
+msgstr ""
+
+#: inc/taxonomies/class-taxonomy-job-manager-regions.php:45
+msgid "region"
+msgstr ""
+
+#: inc/taxonomies/class-taxonomy-job-manager-tags.php:39
+#: inc/taxonomies/class-taxonomy-job-manager-tags.php:49
+msgid "Tags"
+msgstr ""
+
+#: inc/taxonomies/class-taxonomy-job-manager-tags.php:40
+msgid "Tag"
+msgstr ""
+
+#: inc/taxonomies/class-taxonomy-job-manager-tags.php:41
+msgid "Search Tags"
+msgstr ""
+
+#: inc/taxonomies/class-taxonomy-job-manager-tags.php:42
+msgid "All Tags"
+msgstr ""
+
+#: inc/taxonomies/class-taxonomy-job-manager-tags.php:43
+msgid "Parent Tag"
+msgstr ""
+
+#: inc/taxonomies/class-taxonomy-job-manager-tags.php:44
+msgid "Parent Tag:"
+msgstr ""
+
+#: inc/taxonomies/class-taxonomy-job-manager-tags.php:48
+msgid "New Tag"
+msgstr ""
+
+#: inc/taxonomies/class-taxonomy-job-manager-tags.php:56
+msgid "listing-tag"
+msgstr ""
+
+#: inc/taxonomies/class-taxonomy-job-manager-tags.php:66
+msgid "Job tags"
+msgstr ""
+
+#: inc/taxonomies/class-taxonomy-job-manager-tags.php:67
+msgid "Comma separate tags, such as required skills or technologies, for this job."
+msgstr ""
+
+#: inc/taxonomies/class-taxonomy-job-manager-tags.php:70
+msgid "e.g. PHP, Social Media, Management"
+msgstr ""
+
+#: inc/taxonomies/class-taxonomy-job-manager-tags.php:81
+msgid "Please enter no more than %d tags."
+msgstr ""
+
+#: inc/taxonomies/class-taxonomy-job-manager-types.php:24
+msgid "Type"
+msgstr ""
+
+#: inc/taxonomies/class-taxonomy-job-manager-types.php:25
+msgid "Types"
+msgstr ""
+
+#: templates/admin/fields-settings.php:101
+msgid "Create a custom field"
+msgstr ""
+
+#: templates/admin/fields-settings.php:112
+msgid "Create"
+msgstr ""
+
+#: templates/admin/fields-settings.php:119
+msgid "Available Fields"
+msgstr ""
+
+#: templates/claim/claim-form.php:22
+msgid "Claim Image"
+msgstr ""
+
+#: templates/claim/claim-form.php:33
+msgid "Fullname"
+msgstr ""
+
+#: templates/claim/claim-form.php:36
+msgid "Phone"
+msgstr ""
+
+#: templates/claim/claim-form.php:39
+msgid "Additional proof to expedite your claim approval..."
+msgstr ""
+
+#: templates/claim/claim-form.php:42
+msgid "Claim This Business"
+msgstr ""
+
+#: templates/claim/claim.php:6
+msgid "Claim your free business page to have your changes published immediately."
+msgstr ""
+
+#: templates/claim/claim.php:7
+msgid "Claim this business"
+msgstr ""
+#. Plugin Name of the plugin/theme
+msgid "Apus Listdo"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://apusthemes.com/apus-listdo/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Apus Listdo is a plugin for Listdo directory listing theme"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "ApusTheme"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://apusthemes.com"
+msgstr ""

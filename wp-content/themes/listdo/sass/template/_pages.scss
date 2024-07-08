@@ -1,0 +1,137 @@
+// Contact Page
+//----------------------------------
+div.wpcf7-validation-errors{
+	margin: 0;
+	padding: 15px;
+}
+.contact-form-content{
+	padding: $theme-padding;
+	background: $contact-bg;
+	min-height: 260px;
+	.rounded{
+		@include rtl-margin-right(10px);
+		color: $white;
+		@include size(40px,40px);
+		background: darken($body-bg, 20%);
+		.fa,.icon{
+			@include font-size(font-size,16px);
+			margin: 13px;
+		}
+	}
+	small{
+		color: darken($text-color, 20%);
+	}
+}
+.title-page{
+	font-size: 25px;
+	margin:0 0 20px;
+	line-height: 1;
+	@media(min-width: 1200px){
+		font-size: 32px;
+	}
+}
+#apus-main-content{
+	position:relative;
+}
+.page-submit-job{
+	.entry-header-breadcrumb .apus-breadscrumb{
+		margin-bottom:20px;
+	}
+}
+.wrapper-container{
+	overflow: hidden;
+}
+.main-page{
+	.wrapper-comment{
+		padding-top: $theme-padding;
+	}
+}
+.main-page.full-default{
+	max-width: 980px;
+	margin-left: auto;
+	margin-right: auto;
+	float: none;
+}
+// Page Not Found
+//----------------------------------
+body.error404{
+	.apus-breadscrumb{
+		margin-bottom: 0;
+	}
+}
+.page-404{
+	.page-content{
+		max-width: 810px;
+		margin-right: auto;
+		margin-left: auto;
+	}
+	.title-theme{
+		font-size: 70px;
+		font-weight: 400;
+		color: $theme-color;
+	}
+   .not-found{
+	   	padding: 30px 0;
+	   	@media(min-width:1200px){
+	   		padding: 150px 0;
+	   	}
+   }
+   .top-404{
+   		margin:0 0 15px;
+   		@media(min-width:1200px){
+   			margin-bottom: 30px;
+   		}
+   	}
+   	.title{
+   		font-weight: 400;
+   		color: $text-color;
+	   	font-size:16px;
+	   	margin:0 0 20px;
+	   	@media(min-width: 1200px){
+	   		margin:0 0 45px;
+	   	}
+   	}
+  	.search-form{
+  		max-width:800px;
+  		margin:0 auto;
+  		@include border-radius($border-radius-base);
+  		padding:10px;
+  		background-color: #fff;
+  		@include box-shadow(0 0 50px 0 rgba(0,0,0,0.15));
+  		[type="submit"],
+  		.form-control{
+  			height: 50px;
+  		}
+  		.form-control{
+  			border-color: #fff !important;
+  		}
+  		[type="submit"]{
+  			font-weight: 700;
+  			@include border-radius($border-radius-base);
+  			@media(min-width: 1200px){
+  				font-size: 16px;
+  				padding:7px 60px;
+  			}
+  		}
+  	}
+}
+.hidden-bread-title{
+	.breadscrumb-inner{
+		display:none;
+	}
+	#apus-breadscrumb{
+	    margin:0;
+	}
+}
+.top-percent-50{
+	overflow:visible;
+	position:relative;
+	> div{
+		position:absolute;
+		z-index:8;
+		top:50%;
+		@include translateY(-50%);
+		left:0;
+		width:100%;
+	}
+}
